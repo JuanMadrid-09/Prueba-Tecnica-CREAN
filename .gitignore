@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Datos pesados (usar los .zip en el repo; descomprimir localmente)
+02_Datos/*.db
+
+# CSVs que se regeneran con los scripts
+output/base_analitica_cliente.csv
+output/base_analitica_final.csv
+
+# Power BI (opcional: quitar esta linea si quieres versionar el .pbix)
+dashboard/*.pbix
